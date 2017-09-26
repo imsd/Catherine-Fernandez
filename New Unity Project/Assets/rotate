@@ -1,0 +1,25 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour {
+	public Vector3 MyRotation;
+
+	// Use this for initialization
+	// Will show up in inspector
+
+	//Vector3 is a variable type that stores
+	//x, y, and z info
+
+	//in this case, we are naming the variable
+	// 'my rotation' so we know what we are talking about
+	void Start () {
+		
+	}
+
+	// Update is called once per frame
+	void Update () {
+		transform.Rotate (MyRotation * Time.deltaTime);
+		
+	}
+}
