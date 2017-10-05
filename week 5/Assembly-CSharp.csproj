@@ -56,7 +56,9 @@
      <Compile Include="Assets\keyboardLeftRight.cs" />
      <Compile Include="Assets\MouseMovement.cs" />
      <Compile Include="Assets\mouseStuff.cs" />
+     <Compile Include="Assets\ogspawner.cs" />
      <Compile Include="Assets\pitcher.cs" />
+     <Compile Include="Assets\racketbounce.cs" />
      <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Spawner.cs" />
  <Reference Include="UnityEngine.UI">

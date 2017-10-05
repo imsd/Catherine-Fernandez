@@ -17,11 +17,17 @@ public class Spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+
+		GameObject NewObject = Instantiate (go, transform.position, Quaternion.identity);
+		NewObject.GetComponent<Rigidbody> ().AddForce (Vector3.back * 500);
+
+		// print the location of the spawner object
+		Debug.Log(transform.position);
 		// repeat a function
 		// 1: what you want to repeat (as a function)
 		// 2: after how many seconds do you want to start doing it?
 		// 3: repeat every X seconds
-		InvokeRepeating("SpawnThing", StartAfter, SpawnFrequency);
+		//InvokeRepeating("SpawnThing", StartAfter, SpawnFrequency);
 	}
 
 	// Update is called once per frame
