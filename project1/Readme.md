@@ -4,4 +4,4 @@ beause I would like to make ball games sp it was good to get those scripts right
 enough where you can play it.
 
 
-https://github.com/imsd/Catherine-Fernandez/blob/master/project1/Untitled-5.gif
+![Solopong](Untitled-5.gif)
