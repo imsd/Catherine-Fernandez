@@ -1,0 +1,28 @@
+{
+  "origin": "#interjection# #name# I'm  #profession# not  #profession#",
+  "interjection":["Fudge",
+                  "Alas",
+                  "Good Grief",
+                  "Zamn",
+                  "Damn Daddy"
+                  ],
+  
+  
+                  "name":[
+  
+                  "cruz",
+                  "pence",
+                  "ryan"
+                  
+                 ],
+  
+
+                 "profession": [
+                 
+                 "a doctor",
+                 "stripper",
+                 "a sound cloud rapper",
+                 "a republican"
+  ]
+    
+}
